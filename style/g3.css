@@ -121,7 +121,31 @@ main{
     font-size: 1rem;
     font-weight: 400;
 }
-
+.facts-box-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-box-container .box{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+.facts-box-container .box-stats{
+    color: #424242;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.facts-box-container .box-title{
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
 
 
 
